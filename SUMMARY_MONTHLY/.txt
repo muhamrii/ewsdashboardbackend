@@ -1,0 +1,33 @@
+MONTHLY REPORT MONITORING
+November 2020
+=======================
+SERVERNAME : 
+IP ADDRESS : 
+USER ACCESS : 
+SSH PORT : 
+---------------
+CONNECTION STATUS
+---------------
+SUCCESS RATE : %
+Connection Failed :  Sessions
+
+---------------
+CPU USAGE
+---------------
+CPU HEALT(%) : %
+Max CPU : %
+Min CPU : %
+Avg CPU : %
+---------------
+MEMORY USAGE
+---------------
+MEMORY HEALT(%) : %
+Max MEM : %
+Min MEM : %
+Avg MEM : %
+---------------
+DISK HEALT(%)
+---------------
+---------------
+INODES HEALT(%)
+---------------

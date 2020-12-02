@@ -1,0 +1,3 @@
+spawn ssh -p  @
+Bad port ''
+yes

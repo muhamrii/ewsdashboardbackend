@@ -1,0 +1,25 @@
+spawn ssh -p 1110 amri@27.131.0.191
+amri@27.131.0.191's password: 
+Permission denied, please try again.
+amri@27.131.0.191's password: 
+Last login: Wed Dec  2 18:05:18 2020 from 6.136.101.34.bc.googleusercontent.com
+[amri@nmr ~]$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          4512        647       3864        260          0        519
+-/+ buffers/cache:        128       4383
+Swap:         8191          0       8191
+[amri@nmr ~]$ free -m | awk 'NR==2{printf "%.2f%%\n", $3*100/$2}' | awk '{pri< 'NR==2{printf "%.2f%%\n", $3*100/$2}' | awk '{prin                         t "MemLoad: " $0}'
+MemLoad: 14.34%
+[amri@nmr ~]$ top -b -n 1| grep Cpu
+Cpu(s): 12.2%us,  0.7%sy,  0.0%ni, 86.7%id,  0.3%wa,  0.0%hi,  0.1%si,  0.0%st
+[amri@nmr ~]$ df -kh
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/simfs       79G  2.1G   73G   3% /
+none            492K  4.0K  488K   1% /dev
+[amri@nmr ~]$ df -i
+Filesystem      Inodes IUsed   IFree IUse% Mounted on
+/dev/simfs     5242880 78460 5164420    2% /
+none           4116435   109 4116326    1% /dev
+[amri@nmr ~]$ exit
+logout
+Connection to 27.131.0.191 closed.

@@ -1,0 +1,40 @@
+#!/usr/bin/expect -f
+
+##############################
+#LOG COLLECTOR               #
+#Created By : Muhammad Amri  #
+##############################
+
+set timeout 100
+set ip [lindex $argv 0]
+set user [lindex $argv 1]
+set pass [lindex $argv 2]
+set port [lindex $argv 3]
+
+
+spawn ssh -p $port $user@$ip
+expect {
+ "*?"
+  {
+  send "yes\n"
+  expect "*assword:" { send "$pass\n"}
+  }
+"*assword:"
+{
+ send "$pass\n"
+}
+}
+
+expect "*$ "
+send "free -m\n"
+expect "*$ "
+send "free -m | awk 'NR==2{printf \"%.2f%%\\n\", \$3*100/\$2}' | awk '{print \"MemLoad: \" \$0}'\n"
+expect "*$ "
+send "top -b -n 1| grep Cpu\n"
+expect "*$ "
+send "df -kh\n"
+expect "*$ "
+send "df -i\n"
+expect "*$ "
+send "exit\n"
+expect eof

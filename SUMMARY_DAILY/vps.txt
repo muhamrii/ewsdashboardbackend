@@ -1,0 +1,48 @@
+DAILY REPORT MONITORING
+DATE : 2020-12-01
+=======================
+SERVERNAME : vps
+IP ADDRESS : 209.97.170.124
+USER ACCESS : joel
+SSH PORT : 22
+---------------
+CONNECTION STATUS
+---------------
+SUCCESS RATE : 94.71%
+Connection Failed : 12 Sessions
+---------------
+CPU USAGE
+---------------
+CPU HEALT(%) : 100.00%
+Max CPU : 25.13%
+Min CPU : 0%
+Avg CPU : 20.6%
+---------------
+MEMORY USAGE
+---------------
+MEMORY HEALT(%) : 100.00%
+Max MEM : 16.7%
+Min MEM : 0%
+Avg MEM : 1.62%
+---------------
+DISK HEALT(%)
+---------------
+/ : 100.00%
+/dev : 100.00%
+/dev/shm : 100.00%
+/run : 100.00%
+/run/user/0 : 100.00%
+/run/user/1001 : 100.00%
+/run/user/1003 : 100.00%
+/sys/fs/cgroup : 100.00%
+---------------
+INODES HEALT(%)
+---------------
+/ : 100.00%
+/dev : 100.00%
+/dev/shm : 100.00%
+/run : 100.00%
+/run/user/0 : 100.00%
+/run/user/1001 : 100.00%
+/run/user/1003 : 100.00%
+/sys/fs/cgroup : 100.00%

@@ -1,0 +1,33 @@
+EARLY WARNING SYSTEM ALERT
+TIME UPDATE : 2020-11-26 00:10:00
+=======================
+SERVERNAME : 
+IP ADDRESS : 
+USER ACCESS : 
+SSH PORT : 
+---------------
+CONNECTION STATUS
+---------------
+
+---------------
+CPU USAGE
+---------------
+CPU STATUS : 
+Max CPU : %
+Min CPU : %
+Avg CPU : %
+---------------
+MEMORY USAGE
+---------------
+MEMORY STATUS : 
+Max MEM : %
+Min MEM : %
+Avg MEM : %
+---------------
+DISK USAGE
+---------------
+DISK STATUS : NORMAL
+---------------
+INODES USAGE
+---------------
+INODES STATUS : NORMAL

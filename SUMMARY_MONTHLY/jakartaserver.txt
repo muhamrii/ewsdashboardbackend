@@ -1,0 +1,36 @@
+MONTHLY REPORT MONITORING
+December 2020
+=======================
+SERVERNAME : jakartaserver
+IP ADDRESS : 27.131.0.191
+USER ACCESS : amri
+SSH PORT : 1110
+---------------
+CONNECTION STATUS
+---------------
+SUCCESS RATE : 97.47%
+Connection Failed : 75 Sessions
+---------------
+CPU USAGE
+---------------
+CPU HEALT(%) : 100.00%
+Max CPU : 14.83%
+Min CPU : 0%
+Avg CPU : 13.79%
+---------------
+MEMORY USAGE
+---------------
+MEMORY HEALT(%) : 100.00%
+Max MEM : 13.3%
+Min MEM : 0%
+Avg MEM : 12.46%
+---------------
+DISK HEALT(%)
+---------------
+/ : 100.00%
+/dev : 100.00%
+---------------
+INODES HEALT(%)
+---------------
+/ : 100.00%
+/dev : 100.00%

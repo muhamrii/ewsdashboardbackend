@@ -1,0 +1,39 @@
+spawn ssh -p 22 joel@209.97.170.124
+joel@209.97.170.124's password: 
+Permission denied, please try again.
+joel@209.97.170.124's password: 
+Last failed login: Wed Dec  2 11:10:04 UTC 2020 from 6.136.101.34.bc.googleusercontent.com on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Wed Dec  2 11:05:04 2020 from 6.136.101.34.bc.googleusercontent.com
+[joel@5857-centos-s-1vcpu-1gb-sgp1-01 ~]$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:            991         223          69          56         698         530
+Swap:             0           0           0
+[joel@5857-centos-s-1vcpu-1gb-sgp1-01 ~]$ free -m | awk 'NR==2{printf "%.2f%%<gb-sgp1-01 ~]$ free -m | awk 'NR==2{printf "%.2f%%\                         n", $3*100/$2}' | awk '{p<wk 'NR==2{printf "%.2f%%\n", $3*100/$2}' | awk '{pr                         int "MemLoad: " $0}'
+MemLoad: 22.60%
+[joel@5857-centos-s-1vcpu-1gb-sgp1-01 ~]$ top -b -n 1| grep Cpu
+df -kh
+%Cpu(s):  0.0 us, 16.7 sy,  0.0 ni, 83.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+[joel@5857-centos-s-1vcpu-1gb-sgp1-01 ~]$ df -kh
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda1        25G  7.5G   18G  30% /
+devtmpfs        474M     0  474M   0% /dev
+tmpfs           496M     0  496M   0% /dev/shm
+tmpfs           496M   57M  440M  12% /run
+tmpfs           496M     0  496M   0% /sys/fs/cgroup
+tmpfs           100M     0  100M   0% /run/user/0
+tmpfs           100M     0  100M   0% /run/user/1001
+tmpfs           100M     0  100M   0% /run/user/1003
+[joel@5857-centos-s-1vcpu-1gb-sgp1-01 ~]$ df -i
+Filesystem       Inodes  IUsed    IFree IUse% Mounted on
+/dev/vda1      13106624 114161 12992463    1% /
+devtmpfs         121304    299   121005    1% /dev
+tmpfs            126943      4   126939    1% /dev/shm
+tmpfs            126943    468   126475    1% /run
+tmpfs            126943     16   126927    1% /sys/fs/cgroup
+tmpfs            126943      1   126942    1% /run/user/0
+tmpfs            126943      1   126942    1% /run/user/1001
+tmpfs            126943      1   126942    1% /run/user/1003
+[joel@5857-centos-s-1vcpu-1gb-sgp1-01 ~]$ exit
+logout
+Connection to 209.97.170.124 closed.

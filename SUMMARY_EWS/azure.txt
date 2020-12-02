@@ -1,0 +1,33 @@
+EARLY WARNING SYSTEM ALERT
+TIME UPDATE : 2020-12-02 18:10:00
+=======================
+SERVERNAME : azure
+IP ADDRESS : 104.215.192.46
+USER ACCESS : elinherlina
+SSH PORT : 22
+---------------
+CONNECTION STATUS
+---------------
+NORMAL
+---------------
+CPU USAGE
+---------------
+CPU STATUS : NORMAL
+Max CPU : 53.43%
+Min CPU : 53.32%
+Avg CPU : 53.36%
+---------------
+MEMORY USAGE
+---------------
+MEMORY STATUS : NORMAL
+Max MEM : 0.4%
+Min MEM : 0.4%
+Avg MEM : 0.4%
+---------------
+DISK USAGE
+---------------
+DISK STATUS : NORMAL
+---------------
+INODES USAGE
+---------------
+INODES STATUS : NORMAL

@@ -1,0 +1,8 @@
+2020-12-02T18:10:00,vps,/dev/vda1,25G,7.5G,18G,30,/
+2020-12-02T18:10:00,vps,devtmpfs,474M,0,474M,0,/dev
+2020-12-02T18:10:00,vps,tmpfs,496M,0,496M,0,/dev/shm
+2020-12-02T18:10:00,vps,tmpfs,496M,57M,440M,12,/run
+2020-12-02T18:10:00,vps,tmpfs,496M,0,496M,0,/sys/fs/cgroup
+2020-12-02T18:10:00,vps,tmpfs,100M,0,100M,0,/run/user/0
+2020-12-02T18:10:00,vps,tmpfs,100M,0,100M,0,/run/user/1001
+2020-12-02T18:10:00,vps,tmpfs,100M,0,100M,0,/run/user/1003

@@ -1,0 +1,33 @@
+EARLY WARNING SYSTEM ALERT
+TIME UPDATE : 2020-12-02 18:10:00
+=======================
+SERVERNAME : vps
+IP ADDRESS : 209.97.170.124
+USER ACCESS : joel
+SSH PORT : 22
+---------------
+CONNECTION STATUS
+---------------
+NORMAL
+---------------
+CPU USAGE
+---------------
+CPU STATUS : NORMAL
+Max CPU : 22%
+Min CPU : 21.7%
+Avg CPU : 21.87%
+---------------
+MEMORY USAGE
+---------------
+MEMORY STATUS : NORMAL
+Max MEM : 5.3%
+Min MEM : 0%
+Avg MEM : 1.77%
+---------------
+DISK USAGE
+---------------
+DISK STATUS : NORMAL
+---------------
+INODES USAGE
+---------------
+INODES STATUS : NORMAL

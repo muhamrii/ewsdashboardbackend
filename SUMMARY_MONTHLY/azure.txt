@@ -1,0 +1,50 @@
+MONTHLY REPORT MONITORING
+December 2020
+=======================
+SERVERNAME : azure
+IP ADDRESS : 104.215.192.46
+USER ACCESS : elinherlina
+SSH PORT : 22
+---------------
+CONNECTION STATUS
+---------------
+SUCCESS RATE : 93.42%
+Connection Failed : 406 Sessions
+---------------
+CPU USAGE
+---------------
+CPU HEALT(%) : 99.95%
+Max CPU : 92.53%
+Min CPU : 0%
+Avg CPU : 49.17%
+---------------
+MEMORY USAGE
+---------------
+MEMORY HEALT(%) : 99.93%
+Max MEM : 94.4%
+Min MEM : 0%
+Avg MEM : 0.37%
+---------------
+DISK HEALT(%)
+---------------
+/ : 100.00%
+/boot/efi : 100.00%
+/dev : 100.00%
+/dev/shm : 100.00%
+/mnt : 100.00%
+/run : 100.00%
+/run/lock : 100.00%
+/run/user/1000 : 100.00%
+/sys/fs/cgroup : 100.00%
+---------------
+INODES HEALT(%)
+---------------
+/ : 100.00%
+/boot/efi : 100.00%
+/dev : 100.00%
+/dev/shm : 100.00%
+/mnt : 100.00%
+/run : 100.00%
+/run/lock : 100.00%
+/run/user/1000 : 100.00%
+/sys/fs/cgroup : 100.00%

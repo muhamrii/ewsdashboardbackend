@@ -1,0 +1,8 @@
+spawn ssh -p 22 elinherlina@104.215.192.46
+elinherlina@104.215.192.46's password: 
+Elin@0104279
+Permission denied, please try again.
+elinherlina@104.215.192.46's password: 
+Permission denied, please try again.
+elinherlina@104.215.192.46's password: 
+Connection closed by 104.215.192.46 port 22

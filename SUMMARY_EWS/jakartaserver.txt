@@ -1,0 +1,33 @@
+EARLY WARNING SYSTEM ALERT
+TIME UPDATE : 2020-12-02 18:10:00
+=======================
+SERVERNAME : jakartaserver
+IP ADDRESS : 27.131.0.191
+USER ACCESS : amri
+SSH PORT : 1110
+---------------
+CONNECTION STATUS
+---------------
+NORMAL
+---------------
+CPU USAGE
+---------------
+CPU STATUS : NORMAL
+Max CPU : 14.34%
+Min CPU : 14.34%
+Avg CPU : 14.34%
+---------------
+MEMORY USAGE
+---------------
+MEMORY STATUS : NORMAL
+Max MEM : 12.2%
+Min MEM : 12.2%
+Avg MEM : 12.2%
+---------------
+DISK USAGE
+---------------
+DISK STATUS : NORMAL
+---------------
+INODES USAGE
+---------------
+INODES STATUS : NORMAL

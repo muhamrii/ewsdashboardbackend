@@ -1,0 +1,67 @@
+spawn ssh -p 22 elinherlina@104.215.192.46
+elinherlina@104.215.192.46's password: 
+Permission denied, please try again.
+elinherlina@104.215.192.46's password: 
+Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 5.4.0-1031-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Nov 5 10:25:03 WIB 2020
+
+  System load:  0.0               Processes:           122
+  Usage of /:   9.5% of 28.90GB   Users logged in:     0
+  Memory usage: 60%               IP address for eth0: 10.0.0.4
+  Swap usage:   0%
+
+ * Introducing self-healing high availability clusters in MicroK8s.
+   Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
+
+     https://microk8s.io/high-availability
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+39 packages can be updated.
+0 updates are security updates.
+
+New release '20.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Thu Nov 5 10:03:54 WIB 2020 from 34.101.136.6
+elinherlina@serverapippdb:~$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:            889         467          81           2         341         274
+Swap:             0           0           0
+elinherlina@serverapippdb:~$ <2f%%\n", $3*100/$2}' | awk '{print "MemLoad: " $0}'
+MemLoad: 49.02%
+elinherlina@serverapippdb:~$ top -b -n 1| grep Cpu
+%Cpu(s):  0.1 us,  0.2 sy,  0.0 ni, 98.8 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
+elinherlina@serverapippdb:~$ df -kh
+Filesystem      Size  Used Avail Use% Mounted on
+udev            427M     0  427M   0% /dev
+tmpfs            89M  680K   89M   1% /run
+/dev/sdc1        29G  2.8G   27G  10% /
+tmpfs           445M     0  445M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           445M     0  445M   0% /sys/fs/cgroup
+/dev/sdc15      105M  3.6M  101M   4% /boot/efi
+/dev/sda1       3.9G   16M  3.7G   1% /mnt
+tmpfs            89M     0   89M   0% /run/user/1000
+elinherlina@serverapippdb:~$ df -i
+Filesystem      Inodes IUsed   IFree IUse% Mounted on
+udev            109285   454  108831    1% /dev
+tmpfs           113883   673  113210    1% /run
+/dev/sdc1      3870720 75069 3795651    2% /
+tmpfs           113883     1  113882    1% /dev/shm
+tmpfs           113883     4  113879    1% /run/lock
+tmpfs           113883    18  113865    1% /sys/fs/cgroup
+/dev/sdc15           0     0       0     - /boot/efi
+/dev/sda1       262144    12  262132    1% /mnt
+tmpfs           113883    11  113872    1% /run/user/1000
+elinherlina@serverapippdb:~$ exit
+logout
+Connection to 104.215.192.46 closed.
